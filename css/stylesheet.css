@@ -1,0 +1,156 @@
+body {
+	background: #293844;
+	font-family: Proxima Nova Soft, Helvetica, open-sans;
+	-webkit-font-smoothing: antialiased;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Top Section ----------------------------------
+-------------------------------------------------*/
+
+header {
+	text-align: center;
+	margin-top: 5em;
+}
+
+section.input-item {
+	text-align: center;
+}
+
+header span {
+	font-weight: 400;
+	color: #fff;
+	font-size: 3.5em;
+}
+
+input[type="text"] {
+	margin-top: 2em;
+	margin-right: 0.7em;
+	border: none;
+	padding: .25em .25em;
+	border-radius: 25px;
+	width: 20rem;
+	height: 2rem;
+	background: #4F6373;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+}
+
+input:focus {
+	outline: none;
+	color: #fafafa;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+.add-item {
+	background: transparent;
+	border: none;
+	padding-top: 10px;
+	outline: none;
+}
+
+.fa-plus-circle {
+	color: #3fb083;
+	position: relative;
+	top: 12px;
+}
+
+.fa-plus-circle:hover {
+	color: #54b991;
+}
+
+.fa-plus-circle:active {
+	color: #2aa876;
+}
+
+.first-line {
+	width: 30rem;
+	border-bottom: 1px solid #566B7C;
+	margin: 0 auto;
+	padding-top: 3em;
+}
+
+/* List Section ----------------------------------
+-------------------------------------------------*/
+
+section.list-item {
+	width: 33rem;
+	margin: 0 auto;
+}
+
+.list-item ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.list-item ul li {
+	font-size: 2em;
+	padding-top: 0.6em;
+	border-bottom: 2px solid #1C272E;
+}
+
+.list-item ul li:nth-child(odd) {
+	color: #9ba1a3;
+}
+
+.list-item ul li:nth-child(even) {
+	color: #646e71;
+}
+
+.list-item ul li:hover {
+	background: rgba(79,99,115,0.16);
+
+}
+
+.list-item ul li.checked {
+	text-decoration: line-through;
+	color: #222f3b;
+}
+
+.fa-check-circle {
+	float: right;
+	color: #2aa876;
+	position: relative;
+	bottom: 6px;
+}
+
+.fa-check-circle:hover {
+	color: #5ab892;
+}
+
+.fa-check-circle:active {
+	color: #28855f;
+}
+
+.fa-times {
+	padding-left: 10px;
+	color: #962d2d;	
+}
+
+.fa-times:hover {
+	color: #a73232;
+}
+
+.fa-times:active {
+	color: #852828;
+}
+
+
+
+
+
+
+
+
+
+
+
