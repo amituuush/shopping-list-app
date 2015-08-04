@@ -111,7 +111,7 @@ section.list-item {
 
 }
 
-.list-item ul li.checked {
+.list-item ul li.checked {   /*for items checked off, use .checked class*/
 	text-decoration: line-through;
 	color: #222f3b;
 }
@@ -125,6 +125,7 @@ section.list-item {
 
 .fa-check-circle:hover {
 	color: #5ab892;
+	cursor: pointer;
 }
 
 .fa-check-circle:active {
@@ -138,6 +139,7 @@ section.list-item {
 
 .fa-times:hover {
 	color: #a73232;
+	cursor: pointer;
 }
 
 .fa-times:active {
