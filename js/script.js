@@ -29,9 +29,15 @@ $(document).ready(function() {
 	// 	$("span.icon-container").hide();
 	// });
 
-	$(".fa-check-circle").mousedown(function() {
-		alert("hey");
+	$("ul").on("click", ".fa-check-circle", function() {
+		$(this).parent().addClass("checked");
+
 	});
+
+	$("ul").on("click", ".fa-times", function() {
+		$(this).parent().hide();
+	});
+
 
 
 
