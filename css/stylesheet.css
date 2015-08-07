@@ -116,19 +116,19 @@ section.list-item {
 	color: #222f3b;
 }
 
-.fa-check-circle {
+.check-or-undo {
 	float: right;
 	color: #2aa876;
 	position: relative;
 	bottom: 6px;
 }
 
-.fa-check-circle:hover {
+.check-or-undo:hover {
 	color: #5ab892;
 	cursor: pointer;
 }
 
-.fa-check-circle:active {
+.check-or-undo:active {
 	color: #28855f;
 }
 
